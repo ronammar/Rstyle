@@ -53,7 +53,16 @@ random<-rnorm(25,mean=5)
 mtcars[1,]
 ```
 
-TODO: WHEN TO ADD SPACES NEXT TO BRACKETS
+Place a space before left round bracket `(`, except in a function call. 
+
+```r
+# Stylish
+for (l in letters) print(l)
+rnorm(100)
+# Drab
+for(l in letters) print (l)
+rnorm (100)
+```
 
 I prefer not to line up assignment operators. This can get messy and the spacing rules become dependent on the next variable name which may not exist yet.
 
@@ -77,6 +86,12 @@ a             <- 1
 cars          <- rownames(mtcars)
 displacement  <- mtcars$disp
 regr_disp_mpg <- lm(disp ~ mpg, mtcars)
+```
+
+But you should line up parameters in a function call:
+
+```r
+
 ```
 
 ### Sources
