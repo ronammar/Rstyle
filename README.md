@@ -94,6 +94,10 @@ But you should line up parameters in a function call:
 
 ```
 
+TODO:
+- R function calls and partial, ordered matching of arguments
+- lazy eval and arguments within arguments
+
 ### Sources
 
 [*If I have seen further, it is by standing on the shoulders of giants*](https://en.wikipedia.org/wiki/Standing_on_the_shoulders_of_giants):
