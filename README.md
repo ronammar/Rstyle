@@ -38,6 +38,10 @@ quote(y = 5)
 
 This is explained nicely [here](https://ironholds.org/projects/rbitrary/#okay.-and-should-we-be-using---or-people-keep-telling-me-to-use--.).
 
+[Rick Becker](http://www.research.att.com/people/Becker_Richard_A), the co-creator of [S](https://en.wikipedia.org/wiki/S_(programming_language)) (R's predecessor), explained the rationale for using the `<-` operator at the R user conference [*useR 2016*](http://user2016.org). On the TTY37 keyboard, the keyboards connected to the [Bell Labs PDP-11](https://commons.wikimedia.org/wiki/File:Ken_Thompson_(sitting)_and_Dennis_Ritchie_at_PDP-11_(2876612463).jpg), the operator was input via a single key press:
+
+![](images/why_arrow_operator.jpg)
+
 **Spacing:** Add spaces around binary operators (`=`, `+`, `-`, `<-`, etc.). Add spaces after a comma, but not before. Exceptions are for operators `:`, `::`, `:::`, which are not flanked by spaces. Also, when using `=` in a function call, do not flank the operator by spaces.
 
 ```r
