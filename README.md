@@ -101,6 +101,7 @@ But you should line up parameters in a function call:
 TODO:
 - R function calls and partial, ordered matching of arguments
 - lazy eval and arguments within arguments
+- importance of using the pipe `%>%`; give example of passing arguments
 
 ### Sources
 
