@@ -102,6 +102,8 @@ TODO:
 - R function calls and partial, ordered matching of arguments
 - lazy eval and arguments within arguments
 - importance of using the pipe `%>%`; give example of passing arguments
+- if you have to copy a chunk of code at least once (such that it appears at least twice), time to write a function
+  - old saying: if code chunk is duplicated, it'll be wrong at least once
 
 ### Sources
 
