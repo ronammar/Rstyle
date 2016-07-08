@@ -104,6 +104,7 @@ TODO:
 - importance of using the pipe `%>%`; give example of passing arguments
 - if you have to copy a chunk of code at least once (such that it appears at least twice), time to write a function
   - old saying: if code chunk is duplicated, it'll be wrong at least once
+- `library` vs `require`
 
 ### Sources
 
