@@ -108,6 +108,7 @@ TODO:
 - function naming and the `.` character; see advanced R page 103
 - Add template for R scripts - best practices (`set.seed()`, `rm(list=ls())`, etc)
 - incorporate ideas from tidy tools [manifesto](https://cran.r-project.org/web/packages/tidyverse/vignettes/manifesto.html)
+- Load `.RData` objects into "sandboxed" environments so as not to pollute your local namespace
 
 ### Sources
 
