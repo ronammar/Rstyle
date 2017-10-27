@@ -110,6 +110,7 @@ TODO:
 - incorporate ideas from tidy tools [manifesto](https://cran.r-project.org/web/packages/tidyverse/vignettes/manifesto.html)
 - Load `.RData` objects into "sandboxed" environments so as not to pollute your local namespace
 - Create a best practices template (very simple one) for RStudio on github and link to rstyle guide
+- Describe `TODO`s in comments. Can be described as *the phrase TODO in a comment indicates something more is required* (see http://wordaligned.org/docs/todo/todo/what_does_todo_mean_.html)
 
 ### Sources
 
