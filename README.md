@@ -113,6 +113,7 @@ TODO:
 - Describe `TODO`s in comments. Can be described as *the phrase TODO in a comment indicates something more is required* (see http://wordaligned.org/docs/todo/todo/what_does_todo_mean_.html)
 - "[When coding] the bottleneck is often *thinking speed*, not computational speed. Don’t proactively worry about performance of your code, but about whether it’s clear." (see https://robinsones.github.io/Making-R-Code-Faster-A-Case-Study/)
     - "Premature optimization is the root of all evil" -- Donald Knuth (http://wiki.c2.com/?PrematureOptimization)
+- `1:nrow(m)` vs `seq_len(nrow(m))`
 
 ### Sources
 
