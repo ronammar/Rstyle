@@ -114,6 +114,7 @@ TODO:
 - "[When coding] the bottleneck is often *thinking speed*, not computational speed. Don’t proactively worry about performance of your code, but about whether it’s clear." (see https://robinsones.github.io/Making-R-Code-Faster-A-Case-Study/)
     - "Premature optimization is the root of all evil" -- Donald Knuth (http://wiki.c2.com/?PrematureOptimization)
 - `1:nrow(m)` vs `seq_len(nrow(m))`
+- don't use multiple inline assignments `N <- M <- 8000`
 
 ### Sources
 
