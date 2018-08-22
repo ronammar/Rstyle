@@ -115,6 +115,7 @@ TODO:
     - "Premature optimization is the root of all evil" -- Donald Knuth (http://wiki.c2.com/?PrematureOptimization)
 - `1:nrow(m)` vs `seq_len(nrow(m))`
 - don't use multiple inline assignments `N <- M <- 8000`
+- don't use the rightward form of assignment `8000 -> M`
 
 ### Sources
 
