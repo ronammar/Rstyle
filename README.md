@@ -116,6 +116,8 @@ TODO:
 - `1:nrow(m)` vs `seq_len(nrow(m))`
 - don't use multiple inline assignments `N <- M <- 8000`
 - don't use the rightward form of assignment `8000 -> M`
+- `.rds` files vs `.RData` images
+- Good practice to include function parameter defaults where possible rather than describe in the help page
 
 ### Sources
 
