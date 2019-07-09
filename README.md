@@ -38,6 +38,8 @@ quote(y = 5)
 
 This is explained nicely [here](https://ironholds.org/projects/rbitrary/#okay.-and-should-we-be-using---or-people-keep-telling-me-to-use--.).
 
+As described in *[Think Python](http://greenteapress.com/thinkpython/html/index.html)*, in mathematical equality, ***=*** denotes a symmetric relationship such that *n=10* and *10=n*. However, variable assignment is not symmetric, and the expression `10=n` is not legal in R (the integer 10 cannot be assigned a new value). This provides additional motivation to distinguish between equality and assignment using `<-` over `=`.
+
 [Rick Becker](http://www.research.att.com/people/Becker_Richard_A), the co-creator of [S](https://en.wikipedia.org/wiki/S_(programming_language)) (R's predecessor), explained the rationale for using the `<-` operator at the R user conference [*useR 2016*](http://user2016.org). On the TTY37 keyboard, the keyboards connected to the [Bell Labs PDP-11](https://commons.wikimedia.org/wiki/File:Ken_Thompson_(sitting)_and_Dennis_Ritchie_at_PDP-11_(2876612463).jpg), the operator was input via a single key press:
 
 ![](images/why_arrow_operator.jpg)
@@ -125,3 +127,4 @@ TODO:
 
 * [The Google R Style Guide](https://google.github.io/styleguide/Rguide.xml)
 * [The *Advanced R* Style Guide](http://adv-r.had.co.nz/Style.html)
+* [Think Python](http://greenteapress.com/thinkpython/html/index.html)
